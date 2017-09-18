@@ -1,0 +1,39 @@
+
+// // Fonts
+// @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+//
+// // Variables
+// @import "variables";
+//
+// // Bootstrap
+// @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import url('https://www.w3schools.com/w3css/4/w3.css');
+
+
+input {
+  margin: 10px 0px ;
+}
+
+#flash-message {
+  height: 100px;
+  width: 25%;
+  box-shadow: 2px 2px 4px grey;
+  background-color: #baffaa;
+  padding: 20px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  z-index: 10;
+  animation: flash 4s forwards;
+}
+
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
