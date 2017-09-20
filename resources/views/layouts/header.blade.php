@@ -16,7 +16,7 @@
 
     <h3 class="w3-text-teal">{{$randomQuote['body']}}</h3>
     <p>-{{$randomQuote['author']}}</p>
-  </p>
 
-  <img src="/images/avatar.png" />
+    <img src="/images/avatar.png" style="height: 200px; width: 200px;" />
+  </p>
 </header>
