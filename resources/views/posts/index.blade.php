@@ -2,7 +2,7 @@
 
 @section('content')
   <!-- Introduction menu -->
-  <div class="w3-col l4">
+  <div class="w3-col" style="margin: auto;">
     <!-- About Card -->
     <div class="w3-margin w3-margin-top">
     {{-- <img src="/w3images/avatar_g.jpg" style="width:100%"> --}}

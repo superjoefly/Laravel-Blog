@@ -16,7 +16,7 @@
     </style>
   </head>
   <body class="w3-light-grey">
-    <div class="w3-content" style="max-width:1400px" id="app">
+    <div class="w3-content" style="max-width:100%;" id="app">
       @include('layouts.nav')
       @include('layouts.header')
       @include('layouts.message')
@@ -32,8 +32,7 @@
       @include('layouts.tags')
       @include('layouts.footer')
       {{-- End Grid --}}
-
-  </div>
+    </div>
 
   <script src="/js/app.js"></script>
 
