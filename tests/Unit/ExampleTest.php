@@ -46,3 +46,5 @@ class ExampleTest extends TestCase
         ], $posts);
     }
 }
+
+//Null
