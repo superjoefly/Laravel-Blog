@@ -10,6 +10,7 @@ To view this project live, go to my [SJF Laravel-Blog Demo Site](https://superfl
 
 * [Laravel](https://laravel.com/) - PHP Framework
 * [NPM](https://www.npmjs.com/) - Dependency Management
+* [Composer](https://getcomposer.org/) - Dependency Management
 
 ## Authors
 
